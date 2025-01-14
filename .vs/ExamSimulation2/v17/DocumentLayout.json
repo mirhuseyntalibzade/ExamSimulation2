@@ -1,0 +1,581 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\services\\concretes\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\services\\concretes\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\services\\concretes\\servicemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\services\\concretes\\servicemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\services\\abstractions\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\services\\abstractions\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\profiles\\identityuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\profiles\\identityuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\dtos\\authdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\dtos\\authdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\services\\concretes\\technicianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\services\\concretes\\technicianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\dtos\\authdto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\dtos\\authdto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5801A990-BA58-45ED-8063-F0C4048638AB}|DAL\\DAL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\dal\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5801A990-BA58-45ED-8063-F0C4048638AB}|DAL\\DAL.csproj|solutionrelative:dal\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\areas\\admin\\views\\technician\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\admin\\views\\technician\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\areas\\admin\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\admin\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\dtos\\techniciandto\\updatetechniciandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\dtos\\techniciandto\\updatetechniciandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\areas\\admin\\controllers\\techniciancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\admin\\controllers\\techniciancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\areas\\admin\\views\\technician\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\admin\\views\\technician\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\areas\\admin\\views\\technician\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\admin\\views\\technician\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\areas\\admin\\views\\service\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\admin\\views\\service\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\areas\\admin\\views\\service\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\admin\\views\\service\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\dtos\\techniciandto\\gettechniciandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\dtos\\techniciandto\\gettechniciandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\dtos\\techniciandto\\addtechniciandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\dtos\\techniciandto\\addtechniciandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\dtos\\servicedto\\addservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\dtos\\servicedto\\addservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB9FCF1F-7E13-4A70-A2E8-D7B382B4B46F}|CORE\\CORE.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\core\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB9FCF1F-7E13-4A70-A2E8-D7B382B4B46F}|CORE\\CORE.csproj|solutionrelative:core\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB9FCF1F-7E13-4A70-A2E8-D7B382B4B46F}|CORE\\CORE.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\core\\models\\technician.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB9FCF1F-7E13-4A70-A2E8-D7B382B4B46F}|CORE\\CORE.csproj|solutionrelative:core\\models\\technician.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\areas\\admin\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\admin\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\dtos\\servicedto\\updateservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\dtos\\servicedto\\updateservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\dtos\\servicedto\\getservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\dtos\\servicedto\\getservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958DB6AD-8C7B-424B-BBEF-FE403698E25B}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\profiles\\serviceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\profiles\\serviceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|c:\\users\\classtime\\source\\repos\\examsimulation2\\bl\\profiles\\technicianprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E17860-23C7-4871-B7B1-2CE5EC161B57}|BL\\BL.csproj|solutionrelative:bl\\profiles\\technicianprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T14:21:56.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T14:17:59.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T14:17:44.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Services\\Concretes\\AuthService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\Concretes\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Services\\Concretes\\AuthService.cs",
+              "RelativeToolTip": "BL\\Services\\Concretes\\AuthService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T13:52:58.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Services\\Abstractions\\IAuthService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\Abstractions\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Services\\Abstractions\\IAuthService.cs",
+              "RelativeToolTip": "BL\\Services\\Abstractions\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T13:52:10.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Program.cs",
+              "RelativeDocumentMoniker": "MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Program.cs",
+              "RelativeToolTip": "MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T13:26:15.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T12:46:10.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceModelService.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Services\\Concretes\\ServiceModelService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\Concretes\\ServiceModelService.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Services\\Concretes\\ServiceModelService.cs",
+              "RelativeToolTip": "BL\\Services\\Concretes\\ServiceModelService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:57:05.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IdentityUserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Profiles\\IdentityUserProfile.cs",
+              "RelativeDocumentMoniker": "BL\\Profiles\\IdentityUserProfile.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Profiles\\IdentityUserProfile.cs",
+              "RelativeToolTip": "BL\\Profiles\\IdentityUserProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T14:06:34.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\AuthDTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\AuthDTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\AuthDTO\\LoginDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\AuthDTO\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T13:55:25.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\AuthDTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\AuthDTO\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\AuthDTO\\RegisterDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\AuthDTO\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T13:56:35.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TechnicianService.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Services\\Concretes\\TechnicianService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\Concretes\\TechnicianService.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Services\\Concretes\\TechnicianService.cs",
+              "RelativeToolTip": "BL\\Services\\Concretes\\TechnicianService.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAuwGgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:10:16.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Service\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Admin\\Views\\Service\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Service\\Create.cshtml",
+              "RelativeToolTip": "MVC\\Areas\\Admin\\Views\\Service\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T12:04:34.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Technician\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Admin\\Views\\Technician\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Technician\\Create.cshtml",
+              "RelativeToolTip": "MVC\\Areas\\Admin\\Views\\Technician\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T12:32:51.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "RelativeToolTip": "MVC\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T12:07:01.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\DAL\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Contexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\DAL\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "DAL\\Contexts\\AppDbContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:41:01.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "MVC\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\DatabaseSeeder.cs",
+              "RelativeToolTip": "MVC\\DatabaseSeeder.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAkwCUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T13:27:42.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Service\\Update.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Admin\\Views\\Service\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Service\\Update.cshtml",
+              "RelativeToolTip": "MVC\\Areas\\Admin\\Views\\Service\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T12:16:42.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TechnicianController.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Controllers\\TechnicianController.cs",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Admin\\Controllers\\TechnicianController.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Controllers\\TechnicianController.cs",
+              "RelativeToolTip": "MVC\\Areas\\Admin\\Controllers\\TechnicianController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwCgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:23:48.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Technician\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Admin\\Views\\Technician\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Technician\\Index.cshtml",
+              "RelativeToolTip": "MVC\\Areas\\Admin\\Views\\Technician\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T12:07:10.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateTechnicianDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\TechnicianDTO\\UpdateTechnicianDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\TechnicianDTO\\UpdateTechnicianDTO.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\TechnicianDTO\\UpdateTechnicianDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\TechnicianDTO\\UpdateTechnicianDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:47:04.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Technician\\Update.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Admin\\Views\\Technician\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Technician\\Update.cshtml",
+              "RelativeToolTip": "MVC\\Areas\\Admin\\Views\\Technician\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T13:11:38.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetTechnicianDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\TechnicianDTO\\GetTechnicianDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\TechnicianDTO\\GetTechnicianDTO.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\TechnicianDTO\\GetTechnicianDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\TechnicianDTO\\GetTechnicianDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:46:48.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddServiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\ServiceDTO\\AddServiceDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\ServiceDTO\\AddServiceDTO.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\ServiceDTO\\AddServiceDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\ServiceDTO\\AddServiceDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:13:56.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\CORE\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "CORE\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\CORE\\Models\\Service.cs",
+              "RelativeToolTip": "CORE\\Models\\Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:13:46.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Technician.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\CORE\\Models\\Technician.cs",
+              "RelativeDocumentMoniker": "CORE\\Models\\Technician.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\CORE\\Models\\Technician.cs",
+              "RelativeToolTip": "CORE\\Models\\Technician.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:33:47.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddTechnicianDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\TechnicianDTO\\AddTechnicianDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\TechnicianDTO\\AddTechnicianDTO.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\TechnicianDTO\\AddTechnicianDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\TechnicianDTO\\AddTechnicianDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:33:05.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "MVC\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:42:08.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetServiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\ServiceDTO\\GetServiceDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\ServiceDTO\\GetServiceDTO.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\ServiceDTO\\GetServiceDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\ServiceDTO\\GetServiceDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:14:22.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateServiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\ServiceDTO\\UpdateServiceDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\ServiceDTO\\UpdateServiceDTO.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\DTOs\\ServiceDTO\\UpdateServiceDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\ServiceDTO\\UpdateServiceDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:14:13.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAApwC4AAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T12:46:21.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ServiceProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Profiles\\ServiceProfile.cs",
+              "RelativeDocumentMoniker": "BL\\Profiles\\ServiceProfile.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Profiles\\ServiceProfile.cs",
+              "RelativeToolTip": "BL\\Profiles\\ServiceProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:17:50.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TechnicianProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Profiles\\TechnicianProfile.cs",
+              "RelativeDocumentMoniker": "BL\\Profiles\\TechnicianProfile.cs",
+              "ToolTip": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation2\\BL\\Profiles\\TechnicianProfile.cs",
+              "RelativeToolTip": "BL\\Profiles\\TechnicianProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:18:02.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
