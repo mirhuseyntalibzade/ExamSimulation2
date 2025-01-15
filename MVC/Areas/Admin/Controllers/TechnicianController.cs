@@ -2,27 +2,34 @@
 using BL.DTOs.TechnicianDTO;
 using BL.Exceptions;
 using BL.Services.Abstractions;
+using CORE.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize("Admin")]
+
 
     public class TechnicianController : Controller
     {
-        readonly ITechnicianService _service;
+        readonly ITechnicianService _technicianService;
+        readonly IServiceModelService _serviceModelService;
         readonly IMapper _mapper;
 
-        public TechnicianController(ITechnicianService service, IMapper mapper)
+        public TechnicianController(ITechnicianService technicianService, IMapper mapper, IServiceModelService serviceModelService)
         {
-            _service = service;
+            _technicianService = technicianService;
             _mapper = mapper;
+            _serviceModelService = serviceModelService;
         }
         public async Task<IActionResult> Index()
         {
             try
             {
-                ICollection<GetTechnicianDTO> technicians = await _service.GetAllTechnicianAsync();
+                ICollection<GetTechnicianDTO> technicians = await _technicianService.GetAllTechnicianAsync();
                 return View(technicians);
             }
             catch (Exception ex)
@@ -30,9 +37,15 @@ namespace MVC.Areas.Admin.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            return View();
+            ICollection<SelectListItem> services = await _serviceModelService.SelectAllServices();
+            AddTechnicianDTO addTechnicianDTO = new AddTechnicianDTO
+            {
+                Services = services
+            };
+
+            return View(addTechnicianDTO);
         }
 
         [HttpPost]
@@ -40,7 +53,7 @@ namespace MVC.Areas.Admin.Controllers
         {
             try
             {
-                await _service.AddTechnicianAsync(technician);
+                await _technicianService.AddTechnicianAsync(technician);
                 return RedirectToAction("Index");
             }
             catch (OperationNotValidException ex)
@@ -57,8 +70,10 @@ namespace MVC.Areas.Admin.Controllers
         {
             try
             {
-                GetTechnicianDTO technician = await _service.GetTechnicianByIdAsync(Id);
+                GetTechnicianDTO technician = await _technicianService.GetTechnicianByIdAsync(Id);
                 UpdateTechnicianDTO updateTechnicianDTO = _mapper.Map<UpdateTechnicianDTO>(technician);
+                ICollection<SelectListItem> services = await _serviceModelService.SelectAllServices();
+                updateTechnicianDTO.Services = services;
 
                 return View(updateTechnicianDTO);
             }
@@ -77,7 +92,7 @@ namespace MVC.Areas.Admin.Controllers
         {
             try
             {
-                await _service.UpdateTechnician(updateTechnicianDTO);
+                await _technicianService.UpdateTechnician(updateTechnicianDTO);
                 return RedirectToAction("Index");
             }
             catch (NotFoundException ex)
@@ -99,7 +114,7 @@ namespace MVC.Areas.Admin.Controllers
         {
             try
             {
-                await _service.DeleteTechnician(Id);
+                await _technicianService.DeleteTechnician(Id);
                 return RedirectToAction("Index");
             }
             catch (NotFoundException ex)

@@ -30,16 +30,30 @@ namespace BL.Services.Concretes
             }
             IdentityUser userIdentity = _mapper.Map<IdentityUser>(user);
             await _userManager.CreateAsync(userIdentity, user.Password);
+            await _userManager.AddToRoleAsync(userIdentity,"User");
         }
         public async Task LoginAsync(LoginDTO user)
         {
-            IdentityUser userIdentity = _mapper.Map<IdentityUser>(user);
-            SignInResult result = await _signInManager.CheckPasswordSignInAsync(userIdentity,user.Password,false);
+            IdentityUser? userIdentity = await _userManager.FindByNameAsync(user.Username);
+
+            if (userIdentity == null)
+            {
+                throw new OperationNotValidException("User not found.");
+            }
+
+            SignInResult result = await _signInManager.CheckPasswordSignInAsync(userIdentity,user.Password,true);
+            
             if (!result.Succeeded)
             {
-                throw new Exception("Login credentials are not correct.");
+                throw new OperationNotValidException("Login credentials are not correct.");
             }
+
             await _signInManager.SignInAsync(userIdentity,true);
+        }
+
+        public async Task LogoutAsync()
+        {
+            await _signInManager.SignOutAsync();
         }
 
     }

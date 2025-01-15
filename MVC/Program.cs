@@ -6,6 +6,7 @@ using DAL.Repositories.Abstractions;
 using DAL.Repositories.Concretes;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using MVC;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -43,9 +44,16 @@ var app = builder.Build();
 
 using (var scoped = app.Services.CreateScope())
 {
+    
+}
+
+using (var scoped = app.Services.CreateScope())
+{
     var services = scoped.ServiceProvider;
     try
     {
+        AppDbContext? appDbContext = services.GetRequiredService<AppDbContext>();
+        await appDbContext.Database.MigrateAsync();
         await DatabaseSeeder.SeedDataAsync(services);
     }
     catch (Exception ex)
@@ -60,8 +68,8 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-            name: "areas",
-        pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+    name: "areas",
+    pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
 );
 
 app.MapControllerRoute(

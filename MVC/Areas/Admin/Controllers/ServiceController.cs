@@ -3,11 +3,14 @@ using BL.DTOs.ServiceDTO;
 using BL.Exceptions;
 using BL.Services.Abstractions;
 using CORE.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MVC.Areas.Admin.Controllers;
 
 [Area("Admin")]
+[Authorize("Admin")]
+
 
 public class ServiceController : Controller
 {

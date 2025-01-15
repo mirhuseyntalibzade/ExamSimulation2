@@ -4,12 +4,7 @@ using BL.Exceptions;
 using BL.Services.Abstractions;
 using CORE.Models;
 using DAL.Repositories.Abstractions;
-using Microsoft.AspNetCore.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BL.Services.Concretes
 {
@@ -58,6 +53,11 @@ namespace BL.Services.Concretes
                 throw new NotFoundException("Item is not found.");
             }
             return _mapper.Map<GetServiceDTO>(service);
+        }
+
+        public async Task<ICollection<SelectListItem>> SelectAllServices()
+        {
+            return await _repository.SelectServicesAsync();
         }
 
         public async Task UpdateService(UpdateServiceDTO ServiceDTO)

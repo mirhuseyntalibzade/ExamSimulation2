@@ -11,5 +11,6 @@ namespace BL.Services.Abstractions
     {
         Task LoginAsync(LoginDTO user);
         Task RegisterAsync(RegisterDTO user);
+        Task LogoutAsync();
     }
 }

@@ -14,7 +14,8 @@
         </div>
         <div class="mb-3">
             <label asp-for="ServiceId" class="form-label">Service</label>
-            <input asp-for="ServiceId" type="text" class="form-control">
+
+            <select asp-for="ServiceId" asp-items="Model.Services"></select>
             <span asp-validation-for="ServiceId" class="text-danger"></span>
         </div>
         <div class="mb-3">

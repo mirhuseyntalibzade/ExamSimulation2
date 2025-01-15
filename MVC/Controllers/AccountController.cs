@@ -23,7 +23,7 @@ namespace MVC.Controllers
             try
             {
                 await _authService.RegisterAsync(user);
-                return View("Login");
+                return RedirectToAction("Login");
             }
             catch (OperationNotValidException ex)
             {
@@ -46,11 +46,23 @@ namespace MVC.Controllers
             try
             {
                 await _authService.LoginAsync(user);
-                return RedirectToAction("Index","Home");
+                return RedirectToAction("Index", "Home");
             }
             catch (OperationNotValidException ex)
             {
                 return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        public async Task<IActionResult> Logout()
+        {
+            try
+            {
+                await _authService.LogoutAsync();
+                return RedirectToAction("Index", "Home");
             }
             catch (Exception ex)
             {

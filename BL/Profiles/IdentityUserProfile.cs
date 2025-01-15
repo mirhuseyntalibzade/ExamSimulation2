@@ -13,7 +13,6 @@ namespace BL.Profiles
     {
         public IdentityUserProfile()
         {
-            CreateMap<LoginDTO, IdentityUser>().ReverseMap();
             CreateMap<RegisterDTO, IdentityUser>().ReverseMap();
         }
     }

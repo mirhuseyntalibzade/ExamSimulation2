@@ -1,4 +1,5 @@
 ﻿using CORE.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,6 @@ namespace DAL.Repositories.Abstractions
 {
     public interface IServiceRepository : IGenericRepository<Service>
     {
+        Task<ICollection<SelectListItem>> SelectServicesAsync();
     }
 }

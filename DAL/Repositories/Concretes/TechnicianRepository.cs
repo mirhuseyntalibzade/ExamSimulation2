@@ -1,6 +1,7 @@
 ﻿using CORE.Models;
 using DAL.Contexts;
 using DAL.Repositories.Abstractions;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
